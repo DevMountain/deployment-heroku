@@ -86,3 +86,5 @@ That should get you up and going with Node/MongoDB and Heroku!
 > - Click on Deploy
 > - App connected to GitHub: enter the exact name of the repo from GitHub
 > - Automatic deploys: Enable
+
+Reference: https://devcenter.heroku.com/articles/github-integration
