@@ -78,3 +78,11 @@ app.listen(process.env.PORT || 8080);
 Heroku automatically sets the PORT variable, so just as before, we can rely on Heroku to set the variable or it will fall back to our default value in our local environment.
 
 That should get you up and going with Node/MongoDB and Heroku!
+
+## How to connect your Heroku app with its GitHub repo:
+
+> - On your Heroku account, go to your Dashboard
+> - Click on your app name
+> - Click on Deploy
+> - App connected to GitHub: enter the exact name of the repo from GitHub
+> - Automatic deploys: Enable
