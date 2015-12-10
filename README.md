@@ -19,7 +19,7 @@ Enter your email and password, and this will kick off the process that will crea
 heroku create
 ```
 
-This will create an app on Heroku as well as add a new git remote to your repo. *Note: if you created an app already directly on the Heroku website, you'll have to manually add the Heroku remote (e.g. `heroku git:remote -a murmuring-sea-7101`).
+This will create an app on Heroku as well as add a new git remote to your repo. **Note: if you created an app already directly on the Heroku website, you'll have to manually add the Heroku remote (e.g. `heroku git:remote -a murmuring-sea-7101`).**
 
 You can rename the default app name given to you by Heroku (something like calm-mountain-5235) by typing:
 
