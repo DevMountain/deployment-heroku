@@ -19,9 +19,9 @@ Enter your email and password, and this will kick off the process that will crea
 heroku create
 ```
 
-This will create an app on Heroku as well as add a new git remote to your repo.
+This will create an app on Heroku as well as add a new git remote to your repo. *Note: if you created an app already directly on the Heroku website, you'll have to manually add the Heroku remote (e.g. `heroku git:remote -a murmuring-sea-7101`).
 
-You can rename the default app name given to you by heroku (something like calm-mountain-5235) by typing:
+You can rename the default app name given to you by Heroku (something like calm-mountain-5235) by typing:
 
 ```
 heroku apps:rename my-cool-app-name --app calm-mountain-5235
@@ -46,7 +46,7 @@ This should spawn a browser window pointed to your dyno instance. If you're seei
 ##Installing MongoDB on Heroku
 Heroku doesn't give you access to the actual OS or isntance of your Dyno. This means we can't install MongoDB. To do this we have to use a 3rd party add-on called MongoLab. MongoLab is a MongoDB-as-a-Service that lets us connect our Dyno to a separate Mongo instance. This is a paid service, but they provide a free sandbox you can use.
 
-Let's install the mongolab add-on (note that you'll likely have to have a credit card on file with heroku to do this):
+Let's install the mongolab add-on (note that you'll likely have to have a credit card on file with Heroku to do this):
 
 ```
 heroku addons:create mongolab
