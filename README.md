@@ -78,3 +78,11 @@ app.listen(process.env.PORT || 8080);
 Heroku automatically sets the PORT variable, so just as before, we can rely on Heroku to set the variable or it will fall back to our default value in our local environment.
 
 That should get you up and going with Node/MongoDB and Heroku!
+
+## Seeing Your Data
+
+As you develop, you're probably going to want to connect to your MongoLab instance so you can see what's going on.
+
+You can use these options:
+* [Connect with the MongoDB client](http://docs.mongolab.com/connecting/#mongo-shell)
+* [Use Humongous.io](https://humongous.io/)
