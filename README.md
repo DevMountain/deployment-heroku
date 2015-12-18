@@ -27,6 +27,20 @@ You can rename the default app name given to you by Heroku (something like calm-
 heroku apps:rename my-cool-app-name --app calm-mountain-5235
 ```
 
+##Create the Procfile
+
+Your Heroku instance needs to know how to start your API. Create a file named "Procfile" that has a single line entry that points to your server.js, like so:
+
+```
+web: node server.js
+```
+
+(If your server.js is in a subfolder of some type, it would look like this):
+
+```
+web: node server-assets/server.js
+```
+
 ##Deploying Your App
 
 ```
