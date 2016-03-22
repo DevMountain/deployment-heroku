@@ -100,3 +100,8 @@ As you develop, you're probably going to want to connect to your MongoLab instan
 You can use these options:
 * [Connect with the MongoDB client](http://docs.mongolab.com/connecting/#mongo-shell)
 * [Use Humongous.io](https://humongous.io/)
+
+
+## Copyright
+
+© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
